@@ -1,0 +1,202 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--main_color: #3399ff;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+.music {
+	background: url("../img/music2.jpg") center;
+	height: 415px
+}
+.music h1 {
+	padding-top: 40%;
+	color: #f90
+}
+
+.event {
+	background: url("../img/event.jpg") center;
+	height: 415px
+}
+.event h1 {
+	padding-top: 40%;
+	color: #f60
+}
+
+.prints {
+	background: url("../img/slider3.jpg") center;
+	height: 415px
+}
+.prints h1 {
+	padding-top: 40%;
+	color: #f60
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	transition: all 500ms ease-in-out;
+}
+.logo {
+      color: var(--main_color);
+      font-size: 200px;
+  }
+
+a:hover, a:active { text-decoration: none; }
+
+h1,h2,h4 {
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+p {
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.btn {
+	transition: all 300ms ease-in-out;
+	font-weight: 500px !important;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #fff !important
+}
+
+/*=====================================================================================
+									NAVIGATION
+======================================================================================*/
+
+.navbar {
+	background: #222 !important
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-weight: 700
+}
+.navbar a {
+	color: #fff !important;
+	opacity: 0.7
+}
+.navbar a:hover { 
+	opacity: 1;
+	background-color: #111 !important
+}
+
+
+/*=====================================================================================
+									HEADER
+======================================================================================*/
+
+
+.header {
+	height: 600px;
+	width: 100%;
+	padding: 30px 0 30px;
+	margin-top: 50px;
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+	url("../img/print.jpg") center;
+	color: #fff
+}
+
+.header h1 {
+	font-size: 50px;
+	font-weight: 700;
+	padding-top: 150px;
+}
+
+.beyond {
+	padding-top: 0 !important;
+	color: #fff !important;
+}
+
+.header h1, .header p {
+	margin-top: 20px
+}
+
+/*=====================================================================================
+									SERVICES
+======================================================================================*/
+
+.service {
+	padding: 80px 0 80px;
+	text-align: center;
+}
+
+.service h2, .service h4 {
+	color: #4c4c4c;
+	margin: 20px 0 20px;
+}
+
+.service p {
+	color: #737373;
+	font-size: 14px;
+	padding-bottom: 40px
+}
+
+.service i {
+	height: 80px;
+	width: 80px;
+	font-size: 30px;
+	padding: 25px 20px;
+	border-radius: 50%;
+	background: #69c;
+	color: #fff
+}
+
+/*=====================================================================================
+									PACKAGES
+======================================================================================*/
+
+.packages {
+	padding: 50px 0 80px;
+	text-align: center;
+	background: #3399ff
+}
+.packages h2, .packages p {
+	color: #fff
+}
+
+.packages p { padding-bottom: 40px }
+
+.packages .princing {
+	padding: 30px;
+	border: 1px solid #ccc;
+	background: #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.princing li {
+	display: block;
+	padding: 5px
+}
+
+.princing h4, .princing h1, .princing b { color: #4c4c4c }
+
+.princing p, .princing li { color: #737373 }
+
+.princing button { margin-top: 10px }
